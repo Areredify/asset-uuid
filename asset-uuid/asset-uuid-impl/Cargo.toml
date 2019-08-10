@@ -1,0 +1,15 @@
+[package]
+name = "asset-uuid-impl"
+version = "0.0.0"
+authors = ["Michael Babenko <misha-babenko@yandex.ru>"]
+edition = "2018"
+publish = false
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro-hack = "0.5"
+quote = "0.6"
+syn = { version = "0.15", features = ["full"] }
+uuid = "0.7"

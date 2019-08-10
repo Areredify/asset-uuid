@@ -1,0 +1,11 @@
+[package]
+name = "asset-uuid"
+version = "0.0.0"
+authors = ["Michael Babenko <misha-babenko@yandex.ru>"]
+edition = "2018"
+publish = false
+
+
+[dependencies]
+proc-macro-hack = "0.5"
+asset-uuid-impl = { version = "*", path = "./asset-uuid-impl" }
